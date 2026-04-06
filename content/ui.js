@@ -660,11 +660,31 @@ dashboardDiv.innerHTML = `
                     </div>
                     <div class="config-row">
                         <label data-i18n="level_label">📚</label>
-                        <select id="levelSelect">
-                            <option value="1as">1AS</option>
-                            <option value="2as">2AS</option>
-                            <option value="3as">3AS</option>
-                        </select>
+            
+
+
+
+<select id="levelSelect">
+
+<!-- AM -->
+<optgroup label="📘 AM (Moyen)">
+<option value="1am">1AM</option>
+<option value="2am">2AM</option>
+<option value="3am">3AM</option>
+<option value="4am">4AM</option>
+</optgroup>
+
+<!-- AS -->
+<optgroup label="📗 AS (Secondaire)">
+<option value="1as">1AS</option>
+<option value="2as">2AS</option>
+<option value="3as">3AS</option>
+
+</optgroup>
+
+</select>
+
+
                         <button id="saveLevelBtn">
                             <svg viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/>
